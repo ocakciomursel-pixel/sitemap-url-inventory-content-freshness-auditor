@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "lucacelli-sitemap-url-inventory-content-freshness-auditor": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@apify/actors-mcp-server",
+        "--actors",
+        "lucacelli/sitemap-url-inventory-content-freshness-auditor"
+      ],
+      "env": {
+        "APIFY_TOKEN": "YOUR_APIFY_TOKEN_HERE"
+      }
+    }
+  }
+}
