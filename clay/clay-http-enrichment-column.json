@@ -1,0 +1,20 @@
+{
+  "platform": "Clay.com HTTP API Enrichment Column",
+  "actorTitle": "XML Sitemap URL Inventory, SEO Freshness & Content Auditor",
+  "actorStoreUrl": "https://apify.com/lucacelli/sitemap-url-inventory-content-freshness-auditor",
+  "costComparison": "$0.0005 per URL ($0.50/1k) vs. $0.10–$0.50 per row in native Clay credits (98% savings)",
+  "httpApiConfiguration": {
+    "method": "POST",
+    "endpoint": "https://api.apify.com/v2/acts/lucacelli~sitemap-url-inventory-content-freshness-auditor/run-sync-get-dataset-items?token=YOUR_APIFY_TOKEN",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyTemplate": {
+      "domains": [
+        "apify.com",
+        "vercel.com"
+      ],
+      "maxUrlsPerDomain": 200
+    }
+  }
+}
